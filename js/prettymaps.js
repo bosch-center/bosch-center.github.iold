@@ -14,7 +14,7 @@
         options = options || {};
 
         this.defaults = {
-            address: 'Melbourne, Australia',
+            address: 'Moscow, Russia',
             zoom: 13,
             panControl: false,
             zoomControl: false,
