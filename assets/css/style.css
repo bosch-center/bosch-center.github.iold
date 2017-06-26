@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body { background-color: #eee }
+.container { width: 90% }
+
+.webcv {
+  float: right;
+  margin-right: -11px;
+  margin-bottom: 20px;
+}
+
+.github {
+  float: right;
+  margin-right: 11px;
+  margin-bottom: 20px;
+}
+
+.white-box {
+  background-color: #fff;
+  box-shadow:
+    0 2px 5px 0 rgba(0,0,0,0.16),
+    0 2px 10px 0 rgba(0,0,0,0.12);
+  padding: 42px;
+  margin-top: 42px;
+}
+
+.form-header {
+  color: #666;
+  margin: -25px 0 15px 0;
+}
+.form-header i {
+  display: inline-block;
+  font-size: 35px;
+}
+.form-header h2 {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 42px;
+}
+#result {
+  font-size: 16px;
+  margin-top: 13px;
+}
+.text-success { color: #2ab7a9 }
+.text-danger { color: #e74c3c }
+
+.input-field label { margin-left: -10px }
+
+.g-recaptcha { margin-bottom: 15px }
+
+@media only screen and (max-width: 992px) {
+  body { text-align: center }
+  .white-box { padding: 42px 20px}
+  .form-header { margin-top: 0px }
+  .form-header i {
+    display: block;
+    font-size: 50px;
+  }
+  .form-header h2 {
+    display: block;
+    margin: 20px;
+  }
+  .g-recaptcha {
+    margin: 0 auto 15px auto;
+    width: 304px;
+  }
+}
